@@ -5,10 +5,10 @@ const items = categoriesList.querySelectorAll(`.item`);
 // виводимо кількість//
 console.log(`Number of categories: ${items.length}`);
 //проходимось по кожному елементу, щоб отримати заголовок-назву категорії//
- items.forEach(item) => {
+ items.forEach(function(item){
     const categoryTitle = item.querySelector(`h2`).textContent;
     //отримуємо кількість li в  ul//
     const elementsCount = item.querySelectorAll(`ul li`).length;
-    console.log(`Category : $ {categoryTitle}`);
+    console.log(`Category : ${categoryTitle}`);
     console.log(`Elements : ${elementsCount}`);
-};
+});
