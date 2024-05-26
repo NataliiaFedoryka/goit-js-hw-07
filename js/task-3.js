@@ -1,5 +1,5 @@
 const nameInput = document.querySelector(`#name-input`);
-const nameOutput = document.querySelector(`#nameOutput`);
+const nameOutput = document.querySelector(`#name-output`);
 //додаємо прослувховувач події//
  nameInput.addEventListener(`input`, () => {
     const inputValue = nameInput.value.trim();
