@@ -180,3 +180,78 @@ background: #4e75ff;
 outline: none;
 border: none;
 }
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+#controls input {
+border: 1px solid #808080;
+border-radius: 8px;
+padding: 8px 8px;
+width: 150px;
+height: 40px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+#controls input[type="number"]::-webkit-inner-spin-button,
+#controls input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#controls input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+#controls button {
+border-radius: 8px;
+padding: 8px 16px;
+width: 120px;
+height: 40px;
+border: none;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+
+}
+#controls button[data-create] {
+  background: #4e75ff;
+}
+#controls button[data-destroy] {
+  background: #ff4e4e;
+}
+
+#controls button[data-destroy]:hover {
+  background: #ff7070;
+}
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  background: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 44px;
+border-radius: 8px;
+}
+#boxes div {
+  border-radius: 0px;
+  padding: 32px;
+  width: 486px;
+  height: 134px;
+  background: #f6f6fe;
+  
+}
